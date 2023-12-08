@@ -1,0 +1,46 @@
+
+h1 {font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(43, 8, 170, 0.781);
+}
+
+legend {
+    font-size: larger;
+    font-family: cursive;
+    color: rgba(23, 6, 83, 0.781);
+}
+input, textarea {
+    outline: none;
+    border-radius: 4px;
+    height: 25px;
+    border: 1px solid rgb(92, 2, 2);
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+}
+
+.form-group.error input, .form-group.error textarea {
+    border: 1px solid red;
+}
+
+.form-group.error label {
+    color: red;
+}
+
+.form-group.error::after {
+    content: 'Ce champs est invalide !! ATTENTION !!';
+    display: block;
+    color: red;
+    padding: 5px 0;
+    font-size: .9rem;
+}
+
+button {
+    margin: 10px 0;
+    background: rgba(7, 219, 42, 0.89);
+    border: 1px solid rgb(248, 4, 4);
+    border-radius: 4px;
+    height: 30px;
+}

@@ -1,0 +1,82 @@
+h1{
+    color: rgb(198, 129, 238);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 2px;
+}
+legend {
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(139, 83, 0);
+
+}
+
+.presentation{
+ 
+    /*background: url("photo\ code\ inform.jpg") no-repeat;*/
+    background-size:150%;
+    background-position-y: center;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    margin-top:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.rotationImage{
+    width: 450px;
+    width: 350px;
+}
+
+
+
+.rotationImage{
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+    
+}
+
+/* Permet de définir les étapes qui composent la séquence d'une animation CSS. */
+@keyframes spin {
+    100% { -webkit-transform: rotateX(360deg); transform:rotateX(360deg); }
+    }
+/*******************************************************************************/
+p {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 83, 97);
+}
+
+
+
+.footer  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: oblique;
+    border: 10px ridge rgb(103, 129, 177);
+    background-color: rgba(31, 189, 10, 0.541);
+    border-radius: 4%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+/*table, th, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+}*/
+
+/*  espacement et alignement dans les cellules */
+
+/*th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgb(193, 173, 202);
+    
+}*/

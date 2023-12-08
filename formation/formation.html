@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="tuto.js" async></script>
+</head>
+
+<body>
+  <div id="nbpart">
+    <p>NOMBRE DE PARTICIPANTS</p>
+    <p>Il y a 15 inscrits max.</p>
+  </div>
+  <section>
+    <form>
+      <div>
+        <label for="pre-select">Choisissez le niveau de formation</label>
+        <select name="pre" id="valeurs">
+          <option value="">--- Choisir le niveau ---</option>
+          <option value="niveau 1 (Bac+5)">Niveau 1 (Bac+5)</option>
+          <option value="niveau 2 (Bac+4)">Niveau 2 (Bac+4)</option>
+          <option value="niveau 3 (Bac+3)">Niveau 3 (Bac+3)</option>
+          <option value="niveau 4 (Bac+2)">Niveau 4 (Bac+2)</option>
+          <option value="niveau 5 (Bac+1)">Niveau 5 (Bac)</option>
+        </select>
+      </div>
+    </form>
+    <form>
+      <div>
+        <p>Veuillez choisisr l'organisation de votre formation :</p>
+        <input type="radio" name="type" id="ensalle" value="en Salle">En salle</input>
+        <input type="radio" name="type" id="endistanciel" value="en Distanciel">En distanciel</input>
+        <p id="message" style="color: red"></p>
+        <button onClick="ValiderBouton()">Validez</button>
+      </div>
+    </form>
+  </section>
+  <div>
+    <textarea id="textbox" name=monTexte></textarea> <button id="creer">Créer Fichier</button>
+    <a download="info.txt" id="telecharger" style="display: none">Télécharger</a>
+  </div>
+</body>
+
+</html>
